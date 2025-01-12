@@ -1,0 +1,13 @@
+{
+	"id": "BlueSealRebalance",
+	"name": "Blue Seal Rebalance",
+	"author": ["King of the Homeless"],
+	"description": "A blue seal rework meant to nerf it for small hand strategies",
+	"prefix": "bluesealrebalance",
+	"main_file": "BlueSealRebalance.lua",
+	"badge_colour": "13AFCE",
+	"version": "0.1.0",
+	"dependencies": [
+			"Steamodded(>=1.0.0~ALPHA-1310b)"
+	],
+}
