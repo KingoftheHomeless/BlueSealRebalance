@@ -19,7 +19,7 @@ To preemptively answer some possible questions:
 ### Wait, what's the problem with Blue Seal?
 
 It's way too strong, **especially** so for pairs. Considering you'd buy a Jumbo
-Planet pack for a *chance* to get your preferred Planet card, and that still
+Celestial pack for a *chance* to get your preferred Planet card, and that still
 costs 6 dollars, the value you get from a blue seal trigger is disproportionally
 huge compared to the other seals.
 
@@ -38,17 +38,17 @@ The key difference between this blue seal and Space Joker is that you have to ac
 and keep it in your hand, to benefit from it: you have to work to even start
 getting the dice rolls going. Lets take a Pair strategy as an example: in order to maximize
 value, you'd need to draw into the blue seal with the two discards you're given and then play all 4 pairs
-without winning. _This is not trivial_, and even in this best case the expected value is still only slightly
+without prematurely winning. _This is not trivial_, and even in this best case the expected value is still only slightly
 more than one Mercury, and there's a 30% chance to not get one at all. If you only manage to play, say,
-two pairs, then the expected value is only 57% of a Mercury instead. Compare that to vanilla blue seal,
-where the only thing that matters is that you have it when you play your winning hand, and you are
-guaranteed the Mercury.
+two Pairs with the blue seal in hand, then the expected value is only 57% of a Mercury instead.
+Compare that to vanilla blue seal, where the only thing that matters is that you have it when you play your
+winning hand, and you are guaranteed the Mercury.
 
-With big-hand strategies, the math becomes much more favorable, and with single 5-card poker hand you have a 70%
+With big-hand strategies, the math becomes much more favorable, and with a single 5-card poker hand you have a 70%
 chance to get the planet card for it. You'd think this would be broken, but it's actually still somewhat weaker
 than vanilla blue seal; big hands are difficult to find and play multiple of in a single round, especially as
 once you've a good enough setup to win the early blinds you're very likely going to win from the first
-one you play.
+big hand you play.
 
 ### Hold on, you can sell the planet card from any trash hands you play when digging. Isn't that too good?
 
