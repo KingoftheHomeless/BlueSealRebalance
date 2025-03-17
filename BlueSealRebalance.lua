@@ -76,23 +76,6 @@ SMODS.Seal:take_ownership('Blue', {
   calculate = calculate,
 })
 
--- Steamodded has a bug when rendering the seal spectral cards where it doesn't
--- bother to check if the relevant seal is modded and consult its loc_vars,
--- which can then cause the game to crash. This was indeed the case for this mod
--- in 0.1.0, where hovering over Trance would crash the game. This problem could
--- also potentially generalize to other mods, in case they reqan info box for a
--- blue seal in the same way as Trance.
--- This is a violent workaround for that problem.
-local orig_localize = localize
-function localize(args, misc_cat)
-  if args and type(args) == 'table'
-     and args.type == 'other' and args.key == 'blue_seal'
-     and not args.vars then
-     args.vars = SMODS.Seal:get_obj('Blue'):loc_vars().vars
-  end
-  return orig_localize(args, misc_cat)
-end
-
 local orig_get_end_of_round_effect = Card.get_end_of_round_effect
 function Card:get_end_of_round_effect(context)
   -- Dirty workaround to prevent Blue seal's hard-coded vanilla effect
