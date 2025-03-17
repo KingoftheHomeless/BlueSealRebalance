@@ -71,7 +71,7 @@ SMODS.Seal:take_ownership('Blue', {
     return { vars = { G.GAME.probabilities.normal, self.config.extra } }
   end,
   config = {
-    extra = 7,
+    extra = 8,
   },
   calculate = calculate,
 })
