@@ -1,4 +1,4 @@
-# BlueSealRebalance
+# Blue Seal Rebalance
 A mod that attempts to rebalance blue seals in such a way to nerf it for High Card and Pairs in particular,
 while keeping nearly as powerful for large-hand strategies.
 I'm still evaluating this approach: it has not been extensively balance tested. Any testing and feedback would be
@@ -12,7 +12,9 @@ the Mercury. If you play a Flush, you have a 62.5% to get a Jupiter. An Oops can
 to 100%, but you can't get more than one Planet card without retriggers.
 
 Unlike vanilla blue seal, you can get the planet card for any hand you play, not just the final one. This decision
-was to lessen the already significant complexity of the current wording.
+was to lessen the already significant complexity of the current wording, and also has the benefit of introducing a
+strategic element in that small hand builds need to try to draw the blue seal early and keep it through
+multiple hands played to compensate for the reduced odds.
 
 ### Questions and Answers
 To preemptively answer some possible questions:
@@ -81,6 +83,7 @@ the blue seal:
 * If flushes and two pairs are too good, make the multiplier be based on the _+Mult_ the planet card gives. I.e:
   > If held in hand, 1 in 4 chance times the Mult of the Planet card for played poker hand to create that
   > Planet card.
+
   This makes Jupiter a 50% chance rather than 63%, and Uranus a 25% chance.
 
 ### Holy hell that blue seal description is way too long and complex
