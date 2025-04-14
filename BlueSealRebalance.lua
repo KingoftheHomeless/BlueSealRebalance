@@ -66,7 +66,7 @@ SMODS.Seal:take_ownership('Blue', {
       "If {C:attention}held{} in hand, {C:green}#1# in #2#{} chance",
       "times the number of {C:attention}scoring cards{}",
       "to create the {C:planet}Planet{} card for played",
-      "{C:attention}poker hand{}. {C:inactive}(Must have room)",
+      "{C:attention}poker hand{} {C:inactive}(Must have room)",
     },
   },
   loc_vars = function(self, info_queue)
