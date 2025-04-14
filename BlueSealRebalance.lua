@@ -1,11 +1,19 @@
 local function calculate(self, card, context)
   if context.cardarea == G.hand
      and context.main_scoring
-     and not context.repetition_only -- TODO: redundant?
      and #G.consumeables.cards + G.GAME.consumeable_buffer
          < G.consumeables.config.card_limit then
+    local scoring = 0
+    for _, c in ipairs(context.scoring_hand) do
+        if not c.debuff then
+            scoring = scoring + 1
+        end
+    end
+    if scoring == 0 then
+        return nil
+    end
     if pseudorandom('blue_seal')
-       >= (G.GAME.probabilities.normal * #context.scoring_hand)
+       >= (G.GAME.probabilities.normal * scoring)
           /self.config.extra then
       -- Retrigger logic has a bug that prevents a retrigger from happening if
       -- the first trigger didn't do anything.
